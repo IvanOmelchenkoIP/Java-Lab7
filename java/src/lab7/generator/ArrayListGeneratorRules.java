@@ -1,10 +1,10 @@
-package lab7;
+package lab7.generator;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.function.Function;
 
-public class ArrayListRules {
+public class ArrayListGeneratorRules {
 
 	public static final Function<Integer, ArrayList<Integer>> PRIMES_ERATOSTHENES_SIEVE = (n) -> {
 		if (n < 2) {

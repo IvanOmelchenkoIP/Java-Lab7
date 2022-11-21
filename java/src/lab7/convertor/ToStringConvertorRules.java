@@ -1,4 +1,4 @@
-package lab7;
+package lab7.convertor;
 
 import java.util.ArrayList;
 import java.util.function.Function;
